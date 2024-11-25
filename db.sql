@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `bbv_blips` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `data` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=520 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
